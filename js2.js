@@ -21,7 +21,7 @@ window.addEventListener("keydown", function (e) {
         var raceCarLeft = parseInt(window.getComputedStyle(raceCar).getPropertyValue("left"))
         if (raceCarLeft < 260) { raceCar.style.left = (raceCarLeft + 130) + "px" }
         jumpsound.play()
-    };
+    }; 
 
     if (e.keyCode == "37") {
         var raceCarLeft = parseInt(window.getComputedStyle(raceCar).getPropertyValue("left"))
