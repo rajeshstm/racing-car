@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#game {
+  height: 500px;
+  width: 390px;
+  border: 1px solid black;
+  margin: 1rem auto;
+  background: url(/image/backg.jpg);
+  background-size: contain;
+  overflow: hidden;
+}
+#bluecar {
+  height: 100px;
+  width: 130px;
+  /* background-color: black; */
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  animation: move 2s linear infinite;
+}
+#bluecar img {
+  height: 100px;
+  /* width: 130px; */
+}
+
+#racecar {
+  height: 100px;
+  width: 130px;
+  /* background-color: blue; */
+  position: relative;
+  top: 250px;
+  left: 130px;
+  text-align: center;
+  /* animation: move 2s linear infinite; */
+}
+
+#racecar img {
+  height: 100px;
+  width: ;
+}
+
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 501px;
+  }
+}
